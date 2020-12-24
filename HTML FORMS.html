@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HTML FORMS-->
+    <button>submit</button><!--This ll just act as a button (no function)-->
+    <form action="">
+        <input type="text" placeholder="Enter your username" name="username">
+       <!-- name tag - used to associate the input with name in url-->
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <input type="email" placeholder="email daalooo">
+        <br>
+        <input type="color"  >
+        <br>
+        <input type="number" max="10" placeholder="number daalo"> 
+
+        <label for="usna">Username</label>
+        <input type="text" name="uname" id="usna" required> 
+        <!--Label tag connects the input in a block which associates each other -->
+        <!--Label text ka FOR = Input ki ID -->
+        <input type="submit"> <!--Submit button dne ka glt treeka-->
+        <button>Submit</button> <!--Sahii tareeka-->
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+        <!--Inside Forms submit button has a default action to submit input -->
+
+        <p>CHOOSE YOUR SIZE</p>
+        <!--These are name value pairs-->
+        <!--CHECKBOX TAG = multiplechoice-->
+
+        <input type="checkbox" name="size" id="small" value="smallsize">
+        <label for="small">small</label>
+
+        <input type="checkbox" name="size" id="medium" value="mediumsize">
+        <label for="medium">medium</label> 
+
+        <input type="checkbox" name="size" id="large" value="largesize">
+        <label for="large">large</label>
+        <br>
+        <br>
+
+        <P>CHOOSE YOUR SIZE</P>
+        <!--RADIO TAG = singlechoice-->
+
+        <input type="radio" name="size" id="small" value="smallsize">
+        <label for="small">small</label>
+
+        <input type="radio" name="size" id="medium" value="mediumsize">
+        <label for="medium">medium</label> 
+
+        <input type="radio" name="size" id="large" value="largesize">
+        <label for="large">large</label>
+        <br>
+        <br>
+
+
+        <button>YES</button>
+
+
+
+ 
+    </form>
+</body>
+</html>
